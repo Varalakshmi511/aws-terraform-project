@@ -10,7 +10,7 @@ variable "ami" {
 
 variable "instance_type" {
   description = "EC2 Instance type"
-  default     = "t2.nano"
+  default     = "t2.micro"
 }
 
 variable "bucket_name" {
