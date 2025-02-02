@@ -4,6 +4,6 @@ output "instance_public_ip" {
 }
 
 output "s3_bucket_name" {
-  description = "The name of the created S3 bucket"
+  description = "The name of the created S3 bucket created"
   value       = aws_s3_bucket.bucket.bucket
 }
